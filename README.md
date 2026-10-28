@@ -23,7 +23,8 @@ The database has row level security, private evidence storage and an approved pu
 
 ## Included
 
-- Branded overview, illustrative metrics, issue cards and report detail dialogs.
+- Public website with an image-led hero, selectable stories, category collections, community purpose and report detail dialogs.
+- Dedicated Explore, Resolved and About designs, with editorial typography and English, Kannada and Hindi copy.
 - Search, district/category/status filters, recent/oldest/most-supported sorting.
 - Interactive schematic Karnataka map and list switching. Locations are illustrative and approximate, not a geographic navigation map.
 - Report form with consent, client validation, optional private photo, reference confirmation.
@@ -45,3 +46,7 @@ Build produces the static `out/` export. Supabase access runs in the browser und
 This is an initial implementation, not the complete operational system described in the brief. Configure and integration-test a real Supabase project. Add a full role-based moderation dashboard, immutable status audit history, notification delivery, rate limiting/abuse protection, upload malware scanning and metadata stripping, geographic map provider and coordinates, configurable categories, full appeal/deletion/contact workflows and reviewed legal policies. Validate translations with native speakers. Current photos are illustrative stock imagery. The logo is the user-provided image, including its embedded watermark. New Sites deployments are private by default.
 
 Documentation: https://nextjs.org/docs/app/getting-started and https://supabase.com/docs/guides/getting-started/quickstarts/nextjs
+
+## Design reference
+
+The presentation direction follows the user-provided reference https://swaadha-khaki.vercel.app/ using an original civic layout, navy and saffron palette, serif typography, large photographs and rounded controls. The approved homepage remains unchanged during the inner-page pass. Vidhana Soudha hero photograph: https://plcorp-cdn.pinelabs.com/2025/03/Bangalore.webp . Other stock photographs use the Unsplash URLs in src/lib/editorial.ts and src/lib/data.ts.
