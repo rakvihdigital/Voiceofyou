@@ -59,7 +59,7 @@ There are 14 distinct illustrative demo reports, including 10 additional reports
 
 ### Admin access
 
-Open `/admin/` directly. There is no admin link in the public footer. Without Supabase, use the clearly labelled demo credentials shown on the login page: `admin@voiceofyou.demo` / `VoiceOfYouDemo2026!`. They only unlock local sample-data controls; they are never accepted for live Supabase access. The responsive admin demo supports report search, status filters, evidence previews, review notes, status changes and an activity log. Demo reviews persist in this browser and update the local public demo. The demo is not a live security boundary and contains no real citizen data.
+Open `/admin/` directly. There is no admin link in the public footer. Without Supabase, use these demo credentials (they are not displayed in the interface): `admin@voiceofyou.demo` / `VoiceOfYouDemo2026!`. They only unlock local sample-data controls; they are never accepted for live Supabase access. The responsive admin demo supports report search, status filters, evidence previews, review notes, status changes and an activity log. Demo reviews persist in this browser and update the local public demo. The demo is not a live security boundary and contains no real citizen data.
 
 For live administration:
 1. Configure Supabase as above, then run `supabase/admin.sql` after `supabase/schema.sql`.
