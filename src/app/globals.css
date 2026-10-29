@@ -502,9 +502,9 @@ footer>p{grid-column:1/-1;color:#6e827e;font-size:8px;line-height:1.7;margin:15p
 .topbar .sign-in{color:var(--navy)}
 .topbar .mobile-toggle{color:var(--navy)}
 
-/* The announcement strip shares the solid cream header palette. */
-.announcement{background:#efe2c8;color:#526253;border-bottom:1px solid #e1d3b8}
-.announcement button{color:var(--navy)}
+/* Blue announcement strip above the solid cream navigation. */
+.announcement{background:#073567;color:#f4e9d5;border-bottom:1px solid #ffffff15}
+.announcement button{color:#f4e9d5}
 /* Live text wordmark follows the selected interface language. */
 .brand-wordmark.brand-text{width:172px;height:auto;position:static;overflow:visible;display:flex;flex-direction:column;align-items:center;gap:5px;text-align:center}
 .brand-text .brand-name{display:flex;align-items:center;justify-content:center;gap:2px;white-space:nowrap;font-family:Arial,sans-serif;font-size:24px;line-height:1.08;font-weight:900;letter-spacing:-1px;color:#073567}
