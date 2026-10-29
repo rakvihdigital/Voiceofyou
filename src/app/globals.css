@@ -490,7 +490,7 @@ footer>p{grid-column:1/-1;color:#6e827e;font-size:8px;line-height:1.7;margin:15p
 @media(max-width:520px){.explore-banner-wrap{padding:17px 16px 0}.explore-banner{min-height:505px;padding:23px 22px 0;border-radius:13px}.explore-breadcrumb,.explore-breadcrumb button{font-size:7px;gap:9px}.explore-banner-copy{padding:32px 0 29px;max-width:none}.explore-banner-copy .eyebrow{font-size:5px;letter-spacing:1.6px;gap:9px;margin-bottom:22px;line-height:1.9}.explore-banner-copy .eyebrow:before{width:21px}.explore-banner h1{font-size:43px;line-height:1.04;letter-spacing:-1.5px}.explore-banner h1 em{line-height:1.13}.explore-banner-copy>p:not(.eyebrow){font-size:11px;line-height:1.95;max-width:290px;margin:23px 0 25px}.explore-banner-actions{align-items:flex-start;gap:17px;flex-direction:column}.explore-banner-actions .button{font-size:10px;min-height:42px;padding:0 21px;gap:10px}.banner-secondary{font-size:9px;padding:0 0 7px;gap:8px;margin-left:3px}.banner-secondary svg{width:14px}.explore-banner-bottom{font-size:7px;line-height:1.9;padding:16px 0 18px;gap:8px}.explore-banner-bottom>span{align-items:flex-start;gap:8px}.explore-banner-bottom>span>svg{width:13px;margin-top:2px}.explore-banner-shade{background:linear-gradient(90deg,#041c34ed,#041c34ba),linear-gradient(0deg,#03182ee0,transparent 60%)}.explore-banner-image{object-position:63% 50%}.footer-mission .footer-logo{padding:9px 12px 8px 9px;margin-bottom:24px;gap:3px}.footer-logo .logo-symbol{width:36px;height:30px}.footer-logo .logo-symbol img{width:48px;height:48px;left:-6px;top:-4px}.footer-logo .brand-wordmark{width:145px;height:38px}.footer-logo .brand-wordmark img{width:145px;top:0}.footer-attribution{font-size:8px;padding-top:19px;margin-top:20px;gap:6px;line-height:1.9}.footer-attribution>a{gap:3px;padding-bottom:1px}.footer-attribution svg{width:11px}}
 @media(max-width:370px){.explore-banner{padding-left:20px;padding-right:20px}.explore-banner h1{font-size:39px}.explore-banner-copy>p:not(.eyebrow){font-size:10px}.explore-banner-copy .eyebrow{font-size:4.5px;letter-spacing:1.4px}}
 /* Cream, persistent navigation with an unboxed logo. */
-.topbar{position:sticky;top:0;z-index:35;background:#faf6edf5;color:var(--navy);border-bottom:1px solid #e4dbcb;backdrop-filter:blur(16px);box-shadow:0 3px 15px #172d4005}
+.topbar{position:sticky;top:0;z-index:35;background:#f5ecd7;color:var(--navy);border-bottom:1px solid #e1d3b8;backdrop-filter:none;box-shadow:0 3px 15px #172d4005}
 .topbar .website-brand{background:transparent;border-color:transparent;box-shadow:none;padding-left:0;padding-right:0}
 .topbar .website-brand img{mix-blend-mode:multiply}
 .topbar .website-nav button{color:#66766f}
@@ -501,3 +501,7 @@ footer>p{grid-column:1/-1;color:#6e827e;font-size:8px;line-height:1.7;margin:15p
 .topbar .language select{color:var(--navy)}
 .topbar .sign-in{color:var(--navy)}
 .topbar .mobile-toggle{color:var(--navy)}
+
+/* The announcement strip shares the solid cream header palette. */
+.announcement{background:#efe2c8;color:#526253;border-bottom:1px solid #e1d3b8}
+.announcement button{color:var(--navy)}
